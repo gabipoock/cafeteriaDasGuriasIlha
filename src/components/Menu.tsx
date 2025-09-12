@@ -10,11 +10,11 @@ import cafecomleite from '@/assets/cafecomleite.jpg';
 import chocolatequente from '@/assets/chocolate quente.jpg';
 import fruitJuices from '@/assets/fruit-juices.png';
 import narizentupido from '@/assets/narizentupido.jpg';
-import brownie from '@/assets/brownie.jpg';
-import strawberryTart from '@/assets/strawberry-tart.jpg';
+import bolofit from '@/assets/bolofit.jpg';
+import donuts from '@/assets/donuts.jpg';
 import sanducroissant from '@/assets/sanducroissant.jpg';
-import naturalSandwich from '@/assets/natural-sandwich.jpg';
-import quicheLorraine from '@/assets/quiche-lorraine.jpg';
+import tortafria from '@/assets/tortafria.jpg';
+import doguinhos from '@/assets/doguinhos.jpg';
 
 const Menu = () => {
   const bebidas = [
@@ -74,46 +74,46 @@ const Menu = () => {
       id: 1,
       name: "Cone Doce Recheado",
       description: "O famoso doce Nariz Entupido! Uma explosão de sabores que derrete na boca.",
-      price: "Sobremesa",
+      price: "Doce",
       image: narizentupido,
     },
     {
       id: 2,
-      name: "Brownie da Casa",
-      description: "Brownie artesanal com chocolate belga, nozes e calda especial. Servido quente com sorvete de baunilha.",
-      price: "R$ 12,50",
-      image: brownie,
+      name: "Bolo Fit",
+      description: "Uma fatia de puro prazer sem culpa! Nosso bolo é feito com ingredientes selecionados, garantindo um sabor incrível para quem busca uma alimentação mais equilibrada.",
+      price: "Zero Açúcar",
+      image: bolofit,
     },
     {
       id: 3,
-      name: "Torta de Morango",
-      description: "Fatia generosa de torta com massa amanteigada, creme e morangos frescos. O doce perfeito para momentos especiais.",
-      price: "R$ 15,90",
-      image: strawberryTart,
+      name: "Mini Donuts",
+      description: "Fofinhos, irresistíveis e do tamanho perfeito da felicidade! Nossos mini donuts são uma explosão de sabor em miniatura. ",
+      price: "Doce",
+      image: donuts,
     },
   ];
 
   const salgados = [
     {
       id: 1,
-      name: "Croissant Francês",
-      description: "Croissant artesanal recheado com presunto parma e queijo brie, finalizado com tomate cereja. Crocante por fora, macio por dentro.",
-      price: "R$ 9,90",
+      name: "Sanduíche de Croissant",
+      description: "Croissant artesanal recheado com presunto e queijo, finalizado com tomate cereja. Crocante por fora, macio por dentro.",
+      price: "Salgado",
       image: sanducroissant,
     },
     {
       id: 2,
-      name: "Sanduíche Natural",
-      description: "Pão integral com peito de peru, queijo branco, alface, tomate e maionese caseira. Leve e nutritivo.",
-      price: "R$ 11,50",
-      image: naturalSandwich,
+      name: "Torta Fria",
+      description: "O clássico que nunca sai de moda! Camadas perfeitas de pão de forma, frango desfiado temperado (ou atum), maionese e muito queijo.",
+      price: "Torta",
+      image: tortafria,
     },
     {
       id: 3,
-      name: "Quiche Lorraine",
-      description: "Quiche tradicional francesa com bacon, queijo gruyère e creme de leite. Servida quente com salada verde.",
-      price: "R$ 14,90",
-      image: quicheLorraine,
+      name: "Doguinhos",
+      description: "Crocante por fora e surpreendentemente macio por dentro. Nossa massa folhada envolve uma salsicha de primeira qualidade, criando o equilíbrio perfeito de sabor e textura em cada mordida.",
+      price: "Salgado",
+      image: doguinhos,
     },
   ];
 
