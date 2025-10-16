@@ -83,11 +83,13 @@ const About = () => {
             {/* Image */}
             <div className="order-2 lg:order-1">
               <div className="relative">
-                <img 
-                  src={donasImage} 
-                  alt="As donas da Cafeteria das Gurias" 
-                  className="w-full h-[500px] object-cover rounded-2xl shadow-card hover-lift transition-all duration-300"
-                />
+              <img
+                src={donasImage}
+                alt="As donas da Cafeteria das Gurias"
+                className="w-full h-[300px] sm:h-[400px] lg:h-[500px] 
+                          object-contain lg:object-cover object-center
+                          rounded-2xl shadow-card hover-lift transition-all duration-300"
+              />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
                 <div className="absolute bottom-6 left-6 right-6">
                   <p className="text-white font-semibold text-lg bg-black/30 backdrop-blur-sm px-4 py-2 rounded-lg">
